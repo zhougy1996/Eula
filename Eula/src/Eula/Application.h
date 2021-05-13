@@ -3,16 +3,16 @@
 
 namespace Eula {
 
-	class EULA_API Application
-	{
-	public:
-		Application();
-		virtual ~Application();
+    class EULA_API Application
+    {
+    public:
+        Application();
+        virtual ~Application();
 
-		void Run();
-	};
+        void Run();
+    };
 
-	//To be defined by the client(application)
-	Application* CreateApplication();
+    //To be defined by the client(application)
+    Application* CreateApplication();
 
 }

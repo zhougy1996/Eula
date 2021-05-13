@@ -6,20 +6,20 @@
 
 namespace Eula {
 
-	class EULA_API Log
-	{
-	public:
-		Log();
-		~Log();
+    class EULA_API Log
+    {
+    public:
+        Log();
+        ~Log();
 
-		static void Init();
-		static inline std::shared_ptr<spdlog::logger> GetCoreLogger() { return s_CoreLogger; };
-		static inline std::shared_ptr<spdlog::logger> GetClientLogger() { return s_ClientLogger; };
+        static void Init();
+        static inline std::shared_ptr<spdlog::logger> GetCoreLogger() { return s_CoreLogger; };
+        static inline std::shared_ptr<spdlog::logger> GetClientLogger() { return s_ClientLogger; };
 
-	private:
-		static std::shared_ptr<spdlog::logger> s_CoreLogger;
-		static std::shared_ptr<spdlog::logger> s_ClientLogger;
-	};
+    private:
+        static std::shared_ptr<spdlog::logger> s_CoreLogger;
+        static std::shared_ptr<spdlog::logger> s_ClientLogger;
+    };
 
 }
 
