@@ -6,7 +6,8 @@
 #include <stdio.h>
 
 #include "Eula/Application.h"
+#include "Eula/Log.h"
 
-// ---------Entry Point-------------
+// --------- Entry Point -------------
 #include "Eula/EntryPoint.h"
-// ---------------------------------
+// -----------------------------------

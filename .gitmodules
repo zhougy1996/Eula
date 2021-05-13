@@ -1,0 +1,3 @@
+[submodule "Eula/vendor/spdlog"]
+	path = Eula/vendor/spdlog
+	url = git@github.com:gabime/spdlog.git

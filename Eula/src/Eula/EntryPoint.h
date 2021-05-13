@@ -6,7 +6,11 @@ extern Eula::Application* Eula::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("welcome to Eula");
+	Eula::Log::Init();
+	EULA_CORE_INFO("Welcome to Eula!");
+	EULA_FATAL("Eula!");
+
+
 	auto app = Eula::CreateApplication();
 	app->Run();
 	delete app;
