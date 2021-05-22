@@ -4,3 +4,4 @@
 #include <sstream>
 #include <iostream>
 #include <functional>
+#include <memory>

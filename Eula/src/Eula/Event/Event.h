@@ -36,6 +36,12 @@ namespace Eula {
             return GetEventCategoryFlags() & category;
         }
 
+        //Overload "<<" so events can be correctly logged by the logging system
+        template<typename OStream>
+        friend OStream& operator<<(OStream& os, const Event& e)
+        {
+            return os << e.ToString();
+        }
     };
 
 //Create a bunch of necessary functions for an event category
@@ -60,8 +66,11 @@ namespace Eula {
             }
             return false;
         }
+
     private:
         Event& m_Event;
     };
+
+    
 
 }

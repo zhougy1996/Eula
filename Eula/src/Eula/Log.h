@@ -1,8 +1,8 @@
 #pragma once
 
-#include <memory>
 #include "Eula/Core/Base.h"
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
 
 namespace Eula {
 
