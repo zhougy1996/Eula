@@ -1,7 +1,7 @@
 #pragma once
 
 #include <memory>
-#include "Core.h"
+#include "Eula/Core/Base.h"
 #include "spdlog/spdlog.h"
 
 namespace Eula {

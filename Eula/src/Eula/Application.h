@@ -1,5 +1,5 @@
 #pragma once
-#include "Core.h"
+#include "Eula/Core/Base.h"
 
 namespace Eula {
 
@@ -12,7 +12,7 @@ namespace Eula {
         void Run();
     };
 
-    //To be defined by the client(application)
+    //This function need to be defined and implemented by the client(Application)
     Application* CreateApplication();
 
 }

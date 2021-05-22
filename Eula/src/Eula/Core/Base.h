@@ -11,4 +11,6 @@
     #error Eula only supports Windows!
 #endif // EULA_PLATFORM_WINDOWS
 
+#define BIT(x) (1 << x)
 
+#include "Instrument.h"

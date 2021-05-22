@@ -14,6 +14,7 @@ project "Eula"
         }
 
     includedirs{
+        "Eula/src",
         "Eula/vendor/spdlog/include"
     }
 
