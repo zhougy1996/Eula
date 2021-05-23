@@ -18,6 +18,9 @@ project "Eula"
         "Eula/vendor/spdlog/include"
     }
 
+    pchheader "eulapch.h"
+    pchsource "Eula/src/eulapch.cpp"
+
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 

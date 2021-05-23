@@ -14,3 +14,4 @@
 #define BIT(x) (1 << x)
 
 #include "Instrument.h"
+#include "Eula/Log/Log.h"

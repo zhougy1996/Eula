@@ -1,4 +1,5 @@
-#include "Log.h"
+#include "eulapch.h"
+#include "Eula/Log/Log.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
 
 
